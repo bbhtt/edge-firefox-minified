@@ -1,0 +1,16 @@
+{
+  "name": "edge-firefox",
+  "type": "module",
+  "private": true,
+  "version": "1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx minify-all-cli -s \"edge-frfox/src/chrome\" -d \"chrome\" --skipFileExtensions=.svg --logLevel=warn"
+  },
+  "devDependencies": {
+    "minify-all-cli": "^1.0.13"
+  },
+  "browserslist": [
+    "last 5 Firefox version"
+  ]
+}

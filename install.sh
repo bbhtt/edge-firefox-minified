@@ -34,7 +34,7 @@ fi
 
 if which git >/dev/null; then
     echo "SUCCESS: git found"
-    cd "$PWD" && git submodule update --init --recursive || true
+    cd "$PWD" && git submodule update --init --recursive || true && git submodule update --remote --merge || true
 else
     echo "ERROR: git not found. Exiting"
     exit 1

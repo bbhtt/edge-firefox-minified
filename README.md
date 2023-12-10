@@ -8,3 +8,9 @@ git clone https://github.com/bbhtt/edge-firefox-minified.git && cd edge-firefox-
 chmod +x install.sh
 ./install.sh
 ```
+
+3. To update
+
+```bash
+./install.sh
+```

@@ -5,7 +5,7 @@
   "version": "1.0",
   "license": "MIT",
   "scripts": {
-    "build": "npx minify-all-cli -s \"edge-frfox/src/chrome\" -d \"chrome\" --skipFileExtensions=.svg --logLevel=warn"
+    "build": "npx minify-all-cli -s \"edge-frfox/chrome\" -d \"chrome\" --skipFileExtensions=.svg --logLevel=error"
   },
   "devDependencies": {
     "minify-all-cli": "^1.0.13"

@@ -4,9 +4,7 @@
 2. Run this command to install
 
 ```bash
-git clone https://github.com/bbhtt/edge-firefox-minified.git && cd edge-firefox-minified
-chmod +x install.sh
-./install.sh
+git clone https://github.com/bbhtt/edge-firefox-minified.git && cd edge-firefox-minified && chmod +x install.sh && ./install.sh
 ```
 
 3. To update

@@ -1,0 +1,3 @@
+[submodule "edge-frfox"]
+	path = edge-frfox
+	url = https://github.com/bbhtt/edge-frfox.git
